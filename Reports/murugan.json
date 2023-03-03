@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search box fuctionality",
+        "description": "",
+        "id": "testing-google-application;search-box-fuctionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9413161700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launching The Url",
+            "match": {
+              "location": "Google.user_Launching_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2951703700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Input The Search Location In Input Field",
+            "match": {
+              "location": "Google.user_Input_The_Search_Location_In_Input_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8134552400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Clicks Search Button",
+            "match": {
+              "location": "Google.user_Clicks_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "it Navigates To Next Page",
+            "match": {
+              "location": "Google.it_Navigates_To_Next_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Google Application",
+    "description": "",
+    "id": "testing-google-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/senth/eclipse-workspace1/CucumberProject/src/test/java/com/feature/Google.feature"
+  }
+]
